@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./index.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <h1>Calculadora HTML</h1>
+            <p class="title-instrucciones">Instrucciones</p>
+            <p class="step-one">1. En la primer casilla pon el primer numero de tu operacion. </p>
+            <p>2. En la segunda casilla, selecciona el tipo de operacion que deseas realizar (+, -, *, /).</p>
+            <p>3. Por ultimo en la tercer casilla, pon el segundo numero de tu operacion.</p>
+            <p class="step-two">4. Haz click en el boton "calcular"</p>
+        </header>
+        <main class="main-container">
+            <section class="inputs-operacion">
+                <input type="number" id="op1" placeholder="#1">
+                <input type="text" id="operador" placeholder="+">
+                <input type="number" id="op2" placeholder="2#">
+                <p id="resultado">=</p>
+            </section>
+            <section class="button">
+                <input type="submit" value="calcular" id="calcular">
+            </section>
+        </main>
+        <footer class="footer">
+            <p>Gracias por visitar esta pequeña Calculadora</p>
+        </footer>
+    </body>
+</html>

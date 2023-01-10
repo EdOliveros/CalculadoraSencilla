@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.header {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    padding: 2rem;
+}
+.header p {
+    text-align: center;
+    margin-top: 0.7rem;
+    color: rgb(114, 114, 114);
+    font-size: 1.4rem;
+}
+.header .title-instrucciones {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.main-container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.main-container .inputs-operacion {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container .button {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.main-container .button input{
+    width: 10rem;
+    height: 5rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(180, 180, 180);
+}
+.main-container .button p{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+.main-container #operador {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(180, 180, 180);
+    text-align: center;
+}
+.main-container #op1 {
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    margin: 0 1rem 0 1rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(180, 180, 180);
+}
+.main-container #op2 {
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    margin: 0 1rem 0 1rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(180, 180, 180);
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.button input:hover {
+    border: 1px solid rgb(139, 139, 139);
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+}
+.footer p {
+    color: rgb(95, 95, 95);
+}
